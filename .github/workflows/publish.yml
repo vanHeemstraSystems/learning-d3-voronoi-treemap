@@ -24,6 +24,8 @@ jobs:
       #  run: echo "Publish!"
         
       # add software dependencies here
+      - name: Install rmarkdown
+        uses: rmarkdown@v2.20
 
       # To publish to Netlify, RStudio Connect, or GitHub Pages, uncomment
       # the appropriate block below
