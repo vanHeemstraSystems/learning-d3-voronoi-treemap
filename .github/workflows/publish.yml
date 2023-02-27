@@ -31,8 +31,8 @@ jobs:
           packages:
             any::knitr
             any::rmarkdown
-            # any::downlit
-            # any::xml2
+            any::downlit
+            any::xml2
 
       # To publish to Netlify, RStudio Connect, or GitHub Pages, uncomment
       # the appropriate block below
