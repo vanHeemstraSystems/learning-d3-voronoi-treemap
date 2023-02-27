@@ -9,7 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - observable-reactable-demo.qmd
+      - href: observable-reactable-demo.qmd
+        text: "Observable Reactable Demo"
 
 format:
   html:
