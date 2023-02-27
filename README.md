@@ -11,3 +11,4 @@ Based on "Observable Reactable" at https://github.com/glin/reactable/blob/main/v
 
 Based on "Using Observable with reactable in Quarto" at https://glin.quarto.pub/observable-reactable/
 
+Based on "A beginner's guide to using Observable JavaScript, R, and Python with Quarto" at https://www.infoworld.com/article/3674789/a-beginners-guide-to-using-observable-javascript-r-and-python-with-quarto.html
