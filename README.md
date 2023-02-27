@@ -11,6 +11,8 @@ Can be browsed as "Learning FoamTree" at https://vanheemstrasystems.github.io/le
 
 Documentation of this repository is automatically done with Quarto using GitHub Actions as described at https://github.com/vanHeemstraSystems/quarto-to-github-pages/blob/main/300/300/README.md
 
+Based on "ObservableJS HeadQuarters - Standard Library" at https://github.com/observablehq/stdlib#html
+
 Based on "Reactable" at https://github.com/glin/reactable
 
 Based on "Reactable" at https://glin.github.io/reactable/
