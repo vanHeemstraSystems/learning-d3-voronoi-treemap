@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "hello-javascript.html",
+    "href": "hello-javascript.html",
+    "title": "Hello JavaScript",
+    "section": "",
+    "text": "About this site\n\n```{ojs}\n//| echo: false\n//| eval: true \nYOUR CODE GOES HERE\n```\n\n\n\n\n\n\n\nOJS Syntax Error (line 10, column 6)Unexpected token"
+  },
+  {
     "objectID": "SUMMARY.html",
     "href": "SUMMARY.html",
     "title": "Learning - FoamTree",
