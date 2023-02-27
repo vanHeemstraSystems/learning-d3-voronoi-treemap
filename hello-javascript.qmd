@@ -1,0 +1,11 @@
+---
+title: "Hello JavaScript"
+---
+
+About this site
+
+```{ojs}
+//| echo: false
+//| eval: true 
+YOUR CODE GOES HERE
+```
