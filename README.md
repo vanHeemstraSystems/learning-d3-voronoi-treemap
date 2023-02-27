@@ -3,6 +3,14 @@
 learning-foamtree
 # Learning FoamTree
 
+Part of "Learning - Voronoi Treemap" at https://github.com/vanHeemstraSystems/learning-voronoi-treemap
+
+Can be read as "Learning FoamTree" at https://app.gitbook.com/o/mhLLz4wi0Rs2JPkBGvCd/s/ctucNWk20QtwQV0UB2vT/
+
+Can be browsed as "Learning FoamTree" at https://vanheemstrasystems.github.io/learning-foamtree/
+
+Documentation of this repository is automatically done with Quarto using GitHub Actions as described at https://github.com/vanHeemstraSystems/quarto-to-github-pages/blob/main/300/300/README.md
+
 Based on "Reactable" at https://github.com/glin/reactable
 
 Based on "Reactable" at https://glin.github.io/reactable/
