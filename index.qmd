@@ -1,5 +1,5 @@
 ---
-title: "Learning - Foamtree"
+title: "Learning - FoamTree"
 ---
 
 This is a Quarto website.
