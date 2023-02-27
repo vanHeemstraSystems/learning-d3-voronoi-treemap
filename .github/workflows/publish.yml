@@ -20,12 +20,12 @@ jobs:
           tinytex: true 
           # uncomment below and fill to pin a version
           # version: 0.9.600
+          # To install rmarkdown
+          rmarkdown: true
       # - name: print-message
       #  run: echo "Publish!"
         
       # add software dependencies here
-      - name: Install rmarkdown
-        uses: rmarkdown@v2.20
 
       # To publish to Netlify, RStudio Connect, or GitHub Pages, uncomment
       # the appropriate block below
