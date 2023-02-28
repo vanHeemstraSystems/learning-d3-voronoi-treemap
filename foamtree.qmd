@@ -1,1 +1,9 @@
+---
+title: "FoamTree"
+---
 
+About this site
+
+```{ojs}
+DOM.text("Hello, FoamTree!")
+```
