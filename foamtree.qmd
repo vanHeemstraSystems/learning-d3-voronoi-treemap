@@ -8,6 +8,14 @@ About this site
 {
   const tree = DOM.uid("tree");
   return html`
+    <style>
+      /** Set some preferred visualization size, but cap it to the maximum screen size */
+      #visualization {
+        width: 600px; height: 400px;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    </style>
     <!-- The element to embed FoamTree into, must have non-zero dimensions. -->
     <div id="visualization">FoamTree Goes Here</div>
     
