@@ -5,8 +5,7 @@ title: "FoamTree"
 About this site
 
 ```{ojs}
-{
-  const tree = DOM.uid("tree");
+{ const tree = DOM.uid("tree");
   return html`
     <style>
       /** Set some preferred visualization size, but cap it to the maximum screen size */
