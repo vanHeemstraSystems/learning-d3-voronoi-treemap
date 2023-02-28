@@ -32,6 +32,6 @@
     "href": "foamtree.html",
     "title": "FoamTree",
     "section": "",
-    "text": "About this site\n\n{\n  const tree = DOM.uid(\"tree\");\n  return html`\n    <div id=\"visualization\">Hello, FoamTree!</div>\n  `;\n}"
+    "text": "About this site\n\n{\n  const tree = DOM.uid(\"tree\");\n  return html`\n    <div id=\"visualization\">Hello, FoamTree!</div>\n    <script src=\"../carrotsearch.foamtree.js\"></script>\n  `;\n}"
   }
 ]
