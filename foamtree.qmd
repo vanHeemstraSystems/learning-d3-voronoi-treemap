@@ -12,7 +12,7 @@ About this site
     <div id="visualization">FoamTree Goes Here</div>
     
     <!-- Include FoamTree implementation. -->
-    <script src="../carrotsearch.foamtree.js"></script>
+    <script src="https://github.com/vanHeemstraSystems/learning-foamtree/blob/1a8325cbb60ad5748334c56fcf0de9b1e3b162ef/foamtree-3.5.0/carrotsearch.foamtree.js"></script>
     
     <!-- Include Hammer.js for mobile interactions. Not required for desktop-only apps. -->
     <script src="assets/js/hammer.min.js"></script>
