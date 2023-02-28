@@ -32,6 +32,6 @@
     "href": "foamtree.html",
     "title": "FoamTree",
     "section": "",
-    "text": "About this site\n\nDOM.text(\"Hello, FoamTree!\")"
+    "text": "About this site\n\n```{ojs}\n{\n    <div id=\"visualization\">Hello, FoamTree!</div>\n}    \n```\n\n\n\n\n\n\n\nOJS Syntax Error (line 9, column 5)Unexpected token"
   }
 ]
