@@ -5,5 +5,8 @@ title: "Hello JavaScript"
 About this site
 
 ```{ojs}
-DOM.text("Hello, JavaScript!")
+{
+  const greeting = DOM.uid("greeting");
+  return html`<div>Hello, <b>JavaScript</b>!</div>`;
+}    
 ```
