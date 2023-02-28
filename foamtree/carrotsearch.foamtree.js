@@ -1,1 +1,1 @@
-echo "Hello, World!";
+console.log("Hello, FoamTree!");
