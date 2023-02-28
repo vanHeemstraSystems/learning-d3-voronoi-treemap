@@ -32,6 +32,6 @@
     "href": "foamtree.html",
     "title": "FoamTree",
     "section": "",
-    "text": "About this site\n\n{\n  const clip = DOM.uid(\"clip\");\n  return svg`<svg width=\"640\" height=\"640\">\n  <defs>\n    <clipPath id=\"${clip.id}\">\n      <circle cx=\"320\" cy=\"320\" r=\"320\"></circle>\n    </clipPath>\n  </defs>\n  <image\n    clip-path=\"${clip}\"\n    width=\"640\" height=\"640\"\n    preserveAspectRatio=\"xMidYMin slice\"\n    xlink:href=\"https://gist.githubusercontent.com/mbostock/9511ae067889eefa5537eedcbbf87dab/raw/944b6e5fe8dd535d6381b93d88bf4a854dac53d4/mona-lisa.jpg\"\n  ></image>\n</svg>`;\n}"
+    "text": "About this site\n\n{\n  html`<div>Hello, <b>world</b>!</div>`;\n}"
   }
 ]
