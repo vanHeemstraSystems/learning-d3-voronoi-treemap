@@ -8,27 +8,19 @@ About this site
 { const tree = DOM.uid("tree");
   return html`
     <style>
-      /** Set some preferred visualization size, but cap it to the maximum screen size */
       #visualization {
         width: 600px; height: 400px;
         max-width: 100%;
         max-height: 100%;
       }
     </style>
-    <!-- The element to embed FoamTree into, must have non-zero dimensions. -->
     <div id="visualization"></div>
-    <!-- Include FoamTree implementation. -->
     <script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"></script>
-    <!-- Include Hammer.js for mobile interactions. Not required for desktop-only apps. -->
     <script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/demos/assets/js/hammer.min.js"></script>
     <script>
-      // Initialize FoamTree after the whole page loads to make sure
-      // the element has been laid out and has non-zero dimensions.
       window.addEventListener("load", function() {
         var foamtree = new CarrotSearchFoamTree({
-          // Identifier of the HTML element defined above
           id: "visualization",
-          // Some data to visualize.
           dataObject: {
             groups: [
               { label: "Your", weight: 1.0 },
