@@ -6,10 +6,19 @@ About this site
 
 ```{ojs}
 {
-  const tree = DOM.uid("tree");
-  return html`
-    <div id="visualization">Hello, FoamTree!</div>
-    <script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/master/foamtree/carrotsearch.foamtree.js"></script>
-  `;
+  const clip = DOM.uid("clip");
+  return svg`<svg width="640" height="640">
+  <defs>
+    <clipPath id="${clip.id}">
+      <circle cx="320" cy="320" r="320"></circle>
+    </clipPath>
+  </defs>
+  <image
+    clip-path="${clip}"
+    width="640" height="640"
+    preserveAspectRatio="xMidYMin slice"
+    xlink:href="https://gist.githubusercontent.com/mbostock/9511ae067889eefa5537eedcbbf87dab/raw/944b6e5fe8dd535d6381b93d88bf4a854dac53d4/mona-lisa.jpg"
+  ></image>
+</svg>`;
 }    
 ```
