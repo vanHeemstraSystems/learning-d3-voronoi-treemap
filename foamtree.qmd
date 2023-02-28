@@ -10,6 +10,9 @@ About this site
   return html`
     <!-- The element to embed FoamTree into, must have non-zero dimensions. -->
     <div id="visualization">FoamTree Goes Here</div>
+    
+    <!-- Include FoamTree implementation. -->
+    <script src="../carrotsearch.foamtree.js"></script>
   `;
 }    
 ```
