@@ -32,6 +32,6 @@
     "href": "foamtree.html",
     "title": "FoamTree",
     "section": "",
-    "text": "About this site\n\n{ const tree = DOM.uid(\"tree\");\n  return html`\n    <style>\n      #visualization {\n        width: 600px; height: 400px;\n        max-width: 100%;\n        max-height: 100%;\n      }\n    </style>\n    <div id=\"visualization\"></div>\n    <script src=\"https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js\"></script>\n    <script>window.addEventListener(\"load\", function() {var foamtree = new CarrotSearchFoamTree({id: \"visualization\", dataObject: {groups: [{ label: \"Your\", weight: 1.0 }, { label: \"First\", weight: 3.0 }, { label: \"FoamTree\", weight: 2.0 }, { label: \"Visualization\", weight: 4.0 }]}});});</script>\n  `;\n}"
+    "text": "About this site\n\n{ const tree = DOM.uid(\"tree\");\n  return html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style><div id=\"visualization\"></div><script src=\"https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js\"></script><script>window.addEventListener(\"load\", function() {var foamtree = new CarrotSearchFoamTree({id: \"visualization\", dataObject: {groups: [{ label: \"Your\", weight: 1.0 }, { label: \"First\", weight: 3.0 }, { label: \"FoamTree\", weight: 2.0 }, { label: \"Visualization\", weight: 4.0 }]}});});</script>`;\n}"
   }
 ]

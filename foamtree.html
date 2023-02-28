@@ -195,19 +195,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>About this site</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" data-startfrom="7" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 6;"><span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>{ <span class="kw">const</span> tree <span class="op">=</span> DOM<span class="op">.</span><span class="fu">uid</span>(<span class="st">"tree"</span>)<span class="op">;</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="fu">html</span><span class="vs">`</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;style&gt;</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="vs">      #visualization {</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="vs">        width: 600px; height: 400px;</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="vs">        max-width: 100%;</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="vs">        max-height: 100%;</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="vs">      }</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/style&gt;</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;div id="visualization"&gt;&lt;/div&gt;</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"&gt;&lt;/script&gt;</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;script&gt;window.addEventListener("load", function() {var foamtree = new CarrotSearchFoamTree({id: "visualization", dataObject: {groups: [{ label: "Your", weight: 1.0 }, { label: "First", weight: 3.0 }, { label: "FoamTree", weight: 2.0 }, { label: "Visualization", weight: 4.0 }]}});});&lt;/script&gt;</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="vs">  `</span><span class="op">;</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;style&gt;#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}&lt;/style&gt;&lt;div id="visualization"&gt;&lt;/div&gt;&lt;script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"&gt;&lt;/script&gt;&lt;script&gt;window.addEventListener("load", function() {var foamtree = new CarrotSearchFoamTree({id: "visualization", dataObject: {groups: [{ label: "Your", weight: 1.0 }, { label: "First", weight: 3.0 }, { label: "FoamTree", weight: 2.0 }, { label: "Visualization", weight: 4.0 }]}});});&lt;/script&gt;`</span><span class="op">;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-1" data-nodetype="expression">
 
@@ -219,7 +208,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"{ const tree = DOM.uid(\"tree\");\n  return html`\n    <style>\n      #visualization {\n        width: 600px; height: 400px;\n        max-width: 100%;\n        max-height: 100%;\n      }\n    </style>\n    <div id=\"visualization\"></div>\n    <script src=\"https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js\"></script>\n    <script>window.addEventListener(\"load\", function() {var foamtree = new CarrotSearchFoamTree({id: \"visualization\", dataObject: {groups: [{ label: \"Your\", weight: 1.0 }, { label: \"First\", weight: 3.0 }, { label: \"FoamTree\", weight: 2.0 }, { label: \"Visualization\", weight: 4.0 }]}});});</script>\n  `;\n}    \n"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"{ const tree = DOM.uid(\"tree\");\n  return html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style><div id=\"visualization\"></div><script src=\"https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js\"></script><script>window.addEventListener(\"load\", function() {var foamtree = new CarrotSearchFoamTree({id: \"visualization\", dataObject: {groups: [{ label: \"Your\", weight: 1.0 }, { label: \"First\", weight: 3.0 }, { label: \"FoamTree\", weight: 2.0 }, { label: \"Visualization\", weight: 4.0 }]}});});</script>`;\n}    \n"}]}
 
 <script type="module">
 window._ojs.paths.runtimeToDoc = "../..";
