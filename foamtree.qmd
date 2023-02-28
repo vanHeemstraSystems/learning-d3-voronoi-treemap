@@ -5,5 +5,7 @@ title: "FoamTree"
 About this site
 
 ```{ojs}
-DOM.text("Hello, FoamTree!")
+{
+    <div id="visualization">Hello, FoamTree!</div>
+}    
 ```
