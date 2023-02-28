@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Additional group description</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <meta charset="utf-8"/>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/common.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="visualization"></div>
+    </div>
+    <div id="side">
+      <h2 class="font">Initial group position</h2>
+
+      <p>
+        You can customize the initial position of each group by providing the <code>initialPosition</code>
+        object as the property of the group. The object will be expected to contain two properties:
+        <code>position</code> and <code>distanceFromCenter</code>. See the
+        <a href="../api/index.html#attributionPosition"><code>attributionPosition</code></a> and
+        <a href="../api/index.html#attributionDistanceFromCenter"><code>attributionDistanceFromCenter</code></a>
+        options for the semantics.
+      </p>
+
+      <p>
+        You can use the initial group position to, for example, move a large a low-priority group
+        out of the center of the visualization. This example positions the <em>Other</em> group
+        towards the bottom-left corner of the visualization.
+      </p>
+    </div>
+
+    <script src="../carrotsearch.foamtree.js"></script>
+    <script src="../carrotsearch.foamtree.util.treemodel.js"></script>
+
+    <!-- Include Hammer.js for mobile interactions. Not required for desktop-only apps. -->
+    <script src="assets/js/hammer.min.js"></script>
+
+    <!-- A simple static JSON-P loader -->
+    <script>
+      // Once the content loads, initialize the demo
+      window.addEventListener("load", function () {
+        var foamtree = new CarrotSearchFoamTree({
+          id: "visualization",
+          pixelRatio: window.devicePixelRatio || 1,
+
+          dataObject: generate(50),
+
+          // Disable animations
+          rolloutDuration: 0,
+          pullbackDuration: 0,
+
+          groupColorDecorator: function (opts, props, vars) {
+            if (props.group.initialPosition) {
+              vars.groupColor = "hsla(0, 0%, 70%, 1.0)";
+            }
+          }
+        });
+
+        // Resize FoamTree on orientation change
+        window.addEventListener("orientationchange", foamtree.resize);
+
+        // Resize on window size changes
+        window.addEventListener("resize", (function () {
+          var timeout;
+          return function () {
+            window.clearTimeout(timeout);
+            timeout = window.setTimeout(foamtree.resize, 300);
+          }
+        })());
+
+        function generate(count) {
+          var result = [];
+          for (var i = 0; i < count; i++) {
+            result.push({
+              label: "Group " + (i + 1),
+              weight: 1 / (i + 4)
+            });
+          }
+
+          // Add the "Other" group and use the "initialPosition"
+          // property to put it towards the bottom left corner.
+          result.push({
+            label: "Other",
+            weight: 0.3,
+            initialPosition: {
+              position: 135,
+              distanceFromCenter: 1
+            }
+          });
+          return { groups: result };
+        }
+      });
+    </script>
+  </body>
+</html>
