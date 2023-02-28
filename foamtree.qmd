@@ -6,6 +6,7 @@ About this site
 
 ```{ojs}
 {
-  html`<div>Hello, <b>world</b>!</div>`;
+  const tree = DOM.uid("tree");
+  return html`<div>Hello, <b>world</b>!</div>`;
 }    
 ```
