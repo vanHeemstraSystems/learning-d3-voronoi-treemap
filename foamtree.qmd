@@ -13,6 +13,9 @@ About this site
     
     <!-- Include FoamTree implementation. -->
     <script src="../carrotsearch.foamtree.js"></script>
+    
+    <!-- Include Hammer.js for mobile interactions. Not required for desktop-only apps. -->
+    <script src="assets/js/hammer.min.js"></script>
   `;
 }    
 ```
