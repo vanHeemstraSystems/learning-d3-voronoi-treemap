@@ -7,6 +7,9 @@ About this site
 ```{ojs}
 {
   const tree = DOM.uid("tree");
-  return html`<div>Hello, <b>world</b>!</div>`;
+  return html`
+    <!-- The element to embed FoamTree into, must have non-zero dimensions. -->
+    <div id="visualization">FoamTree Goes Here</div>
+  `;
 }    
 ```
