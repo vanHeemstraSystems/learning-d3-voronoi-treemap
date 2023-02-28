@@ -18,13 +18,10 @@ About this site
     </style>
     <!-- The element to embed FoamTree into, must have non-zero dimensions. -->
     <div id="visualization"></div>
-    
     <!-- Include FoamTree implementation. -->
     <script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"></script>
-    
     <!-- Include Hammer.js for mobile interactions. Not required for desktop-only apps. -->
     <script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/demos/assets/js/hammer.min.js"></script>
-    
     <script>
       // Initialize FoamTree after the whole page loads to make sure
       // the element has been laid out and has non-zero dimensions.
@@ -32,7 +29,6 @@ About this site
         var foamtree = new CarrotSearchFoamTree({
           // Identifier of the HTML element defined above
           id: "visualization",
-
           // Some data to visualize.
           dataObject: {
             groups: [
