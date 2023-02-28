@@ -26,5 +26,12 @@
     "title": "Learning - FoamTree",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "foamtree.html",
+    "href": "foamtree.html",
+    "title": "FoamTree",
+    "section": "",
+    "text": "About this site\n\nDOM.text(\"Hello, FoamTree!\")"
   }
 ]
