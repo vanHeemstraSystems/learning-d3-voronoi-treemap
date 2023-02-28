@@ -15,7 +15,7 @@ About this site
     <script src="https://github.com/vanHeemstraSystems/learning-foamtree/blob/1a8325cbb60ad5748334c56fcf0de9b1e3b162ef/foamtree-3.5.0/carrotsearch.foamtree.js"></script>
     
     <!-- Include Hammer.js for mobile interactions. Not required for desktop-only apps. -->
-    <script src="assets/js/hammer.min.js"></script>
+    <script src="https://github.com/vanHeemstraSystems/learning-foamtree/blob/22cb48f734cbcad581c2ada1704642e8e108cb83/foamtree-3.5.0/demos/assets/js/hammer.min.js"></script>
   `;
 }    
 ```
