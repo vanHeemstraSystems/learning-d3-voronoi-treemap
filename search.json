@@ -32,6 +32,6 @@
     "href": "foamtree.html",
     "title": "FoamTree",
     "section": "",
-    "text": "About this site\n\n{\n  const tree = DOM.uid(\"tree\");\n  return html`\n    <!-- The element to embed FoamTree into, must have non-zero dimensions. -->\n    <div id=\"visualization\">FoamTree Goes Here</div>\n  `;\n}"
+    "text": "About this site\n\n{\n  const tree = DOM.uid(\"tree\");\n  return html`\n    <!-- The element to embed FoamTree into, must have non-zero dimensions. -->\n    <div id=\"visualization\">FoamTree Goes Here</div>\n    \n    <!-- Include FoamTree implementation. -->\n    <script src=\"../carrotsearch.foamtree.js\"></script>\n  `;\n}"
   }
 ]
