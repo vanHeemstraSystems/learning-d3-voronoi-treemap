@@ -9,6 +9,7 @@ About this site
   const tree = DOM.uid("tree");
   return html`
     <div id="visualization">Hello, FoamTree!</div>
+    <script src="../carrotsearch.foamtree.js"></script>
   `;
 }    
 ```
