@@ -194,9 +194,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <p>About this site</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" data-startfrom="9" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 8;"><span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>viewof text <span class="op">=</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;style&gt;#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}&lt;/style&gt;`</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>viewof text <span class="op">=</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;div id="visualization"&gt;Hello, Visualization!&lt;/div&gt;`</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>viewof input <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">text</span>({<span class="dt">label</span><span class="op">:</span> <span class="st">"Input"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"Edit me"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1" data-startfrom="9" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 8;"><span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>viewof mystyle <span class="op">=</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;style&gt;#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}&lt;/style&gt;`</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>viewof mydiv <span class="op">=</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;div id="visualization"&gt;Hello, Visualization!&lt;/div&gt;`</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>viewof myinput <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">text</span>({<span class="dt">label</span><span class="op">:</span> <span class="st">"Input"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"Edit me"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -224,7 +224,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"viewof text = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`\nviewof text = htl.html`<div id=\"visualization\">Hello, Visualization!</div>`\nviewof input = Inputs.text({label: \"Input\", value: \"Edit me\"})\n"},{"methodName":"interpretQuiet","source":"shinyInput('text')"},{"methodName":"interpretQuiet","source":"shinyInput('input')"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"viewof mystyle = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`\nviewof mydiv = htl.html`<div id=\"visualization\">Hello, Visualization!</div>`\nviewof myinput = Inputs.text({label: \"Input\", value: \"Edit me\"})\n"},{"methodName":"interpretQuiet","source":"shinyInput('mystyle')"},{"methodName":"interpretQuiet","source":"shinyInput('mydiv')"},{"methodName":"interpretQuiet","source":"shinyInput('myinput')"}]}
 </script>
 <script type="module">
 window._ojs.paths.runtimeToDoc = "../..";
