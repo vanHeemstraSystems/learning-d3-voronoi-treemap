@@ -194,7 +194,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <p>About this site</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" data-startfrom="8" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 7;"><span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>bertin <span class="op">=</span> <span class="pp">require</span>(<span class="st">"bertin@1.2.4"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1" data-startfrom="8" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 7;"><span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>viewof input <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">text</span>({<span class="dt">label</span><span class="op">:</span> <span class="st">"Input"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="st">"Edit me"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-1" data-nodetype="declaration">
 
@@ -206,7 +206,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"bertin = require(\"bertin@1.2.4\")\n"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"viewof input = Inputs.text({label: \"Input\", value: \"Edit me\"})\n"},{"methodName":"interpretQuiet","source":"shinyInput('input')"}]}
 </script>
 <script type="module">
 window._ojs.paths.runtimeToDoc = "../..";

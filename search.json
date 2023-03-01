@@ -32,6 +32,6 @@
     "href": "foamtree.html",
     "title": "FoamTree",
     "section": "",
-    "text": "About this site\n\nbertin = require(\"bertin@1.2.4\")"
+    "text": "About this site\n\nviewof input = Inputs.text({label: \"Input\", value: \"Edit me\"})"
   }
 ]
