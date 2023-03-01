@@ -6,5 +6,5 @@ About this site
 
 ```{ojs}
 //| echo: true
-bertin = require("bertin@1.2.4")
+viewof input = Inputs.text({label: "Input", value: "Edit me"})
 ```
