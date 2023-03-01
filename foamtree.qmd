@@ -6,10 +6,8 @@ About this site
 
 ```{ojs}
 //| echo: true
-html`<div>Hello from DIV</div>`
-```
-
-```{ojs}
-//| echo: true
-html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style><div id="visualization">Hello, Visualization!</div>`
+html`
+  <div>Hello from DIV</div>
+  <style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>
+`
 ```
