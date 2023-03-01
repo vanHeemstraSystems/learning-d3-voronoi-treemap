@@ -21,6 +21,6 @@ About this site
 ```{ojs}
 //| echo: true
 {
-  const foamtree-script=DOM.uid("foamtree-script"); return html`<script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/foamtree-3.5.0/carrotsearch.foamtree.js"></script>`;
+  const foamtree-script=DOM.uid("foamtree-script"); return html`<p>https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/foamtree-3.5.0/carrotsearch.foamtree.js</p>`;
 }
 ```
