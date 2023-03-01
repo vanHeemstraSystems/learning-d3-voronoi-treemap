@@ -13,6 +13,6 @@ About this site
 
 ```{ojs}
 {
-  const tree=DOM.uid("tree"); return html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`;
+  const mystyle=DOM.uid("mystyle"); return html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`;
 } 
 ```
