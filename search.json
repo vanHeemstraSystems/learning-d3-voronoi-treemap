@@ -32,6 +32,6 @@
     "href": "foamtree.html",
     "title": "FoamTree",
     "section": "",
-    "text": "About this site\n\nviewof input = Inputs.text({label: \"Input\", value: \"Edit me\"})"
+    "text": "About this site\n\nviewof text = htl.html`<p>Some Text</p>`\nviewof input = Inputs.text({label: \"Input\", value: \"Edit me\"})"
   }
 ]
