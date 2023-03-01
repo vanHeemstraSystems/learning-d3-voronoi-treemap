@@ -5,7 +5,7 @@ title: "FoamTree"
 About this site
 
 ```{ojs}
-//| echo: false
+//| echo: true
 {
   const hello=DOM.uid("hello"); return html`<div>Hello from DIV</div>`;
 }
@@ -14,13 +14,13 @@ About this site
 ```{ojs}
 //| echo: true
 {
-  const visualization-style=DOM.uid("visualization-style"); return html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style><div id="visualization">Hello, Visualization!</div>`;
+  const foo=DOM.uid("foo"); return html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style><div id="visualization">Hello, Visualization!</div>`;
 } 
 ```
 
 ```{ojs}
 //| echo: true
 {
-  const foamtree-script=DOM.uid("foamtree-script"); return html`<script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"></script>`;
+  const bar=DOM.uid("bar"); return html`<script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"></script>`;
 }
 ```
