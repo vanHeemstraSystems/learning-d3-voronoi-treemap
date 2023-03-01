@@ -6,7 +6,7 @@ About this site
 
 ```{ojs}
 //| echo: true
-viewof text = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`
-viewof text = htl.html`<div id="visualization">Hello, Visualization!</div>`
-viewof input = Inputs.text({label: "Input", value: "Edit me"})
+viewof mystyle = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`
+viewof mydiv = htl.html`<div id="visualization">Hello, Visualization!</div>`
+viewof myinput = Inputs.text({label: "Input", value: "Edit me"})
 ```
