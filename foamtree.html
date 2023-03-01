@@ -194,7 +194,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <p>About this site</p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="8" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 7;"><span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>{</span>
+<div class="sourceCode cell-code" id="cb1" data-startfrom="8" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 7;"><span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>{</span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> hello<span class="op">=</span>DOM<span class="op">.</span><span class="fu">uid</span>(<span class="st">"hello"</span>)<span class="op">;</span> <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;div&gt;Hello from DIV&lt;/div&gt;`</span><span class="op">;</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
@@ -203,49 +203,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<div class="quarto-ojs-syntax-error">
-<div class="sourceCode" id="cb2" data-startfrom="14" data-syntax-error-position="23" data-source-offset="9"><pre class="sourceCode numberSource numberLines java code-with-copy"><code class="sourceCode java" style="counter-reset: source-line 13;"><span id="cb2-14"><a href="#cb2-14"></a>```<span class="op">{</span>ojs<span class="op">}</span></span>
-<span id="cb2-15"><a href="#cb2-15"></a><span class="co">//| echo: true</span></span>
-<span id="cb2-16"><a href="#cb2-16"></a><span class="op">{</span></span>
-<span id="cb2-17"><a href="#cb2-17"></a>  <span class="dt">const</span> visualization<span class="op">-</span>style<span class="op">=</span>DOM<span class="op">.</span><span class="fu">uid</span><span class="op">(</span><span class="st">"visualization-style"</span><span class="op">);</span> <span class="cf">return</span> html`<span class="op">&lt;</span>style<span class="op">&gt;</span>#visualization <span class="op">{</span>width<span class="op">:</span> <span class="er">600</span>px<span class="op">;</span> height<span class="op">:</span> <span class="er">400</span>px<span class="op">;</span> max<span class="op">-</span>width<span class="op">:</span> <span class="dv">100</span><span class="op">%;</span> max<span class="op">-</span>height<span class="op">:</span> <span class="dv">100</span><span class="op">%;}&lt;/</span>style<span class="op">&gt;&lt;</span>div id<span class="op">=</span><span class="st">"visualization"</span><span class="op">&gt;</span>Hello<span class="op">,</span> Visualization<span class="op">!&lt;/</span>div<span class="op">&gt;</span>`<span class="op">;</span></span>
-<span id="cb2-18"><a href="#cb2-18"></a><span class="op">}</span> </span>
-<span id="cb2-19"><a href="#cb2-19"></a>```</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<div class="callout-important callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-OJS Syntax Error (line 17, column 22)Unexpected token
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" data-startfrom="15" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 14;"><span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> foo<span class="op">=</span>DOM<span class="op">.</span><span class="fu">uid</span>(<span class="st">"foo"</span>)<span class="op">;</span> <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;style&gt;#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}&lt;/style&gt;&lt;div id="visualization"&gt;Hello, Visualization!&lt;/div&gt;`</span><span class="op">;</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
 
 </div>
 </div>
 </div>
-</div>
-<div class="quarto-ojs-syntax-error">
-<div class="sourceCode" id="cb3" data-startfrom="21" data-syntax-error-position="18" data-source-offset="9"><pre class="sourceCode numberSource numberLines java code-with-copy"><code class="sourceCode java" style="counter-reset: source-line 20;"><span id="cb3-21"><a href="#cb3-21"></a>```<span class="op">{</span>ojs<span class="op">}</span></span>
-<span id="cb3-22"><a href="#cb3-22"></a><span class="co">//| echo: true</span></span>
-<span id="cb3-23"><a href="#cb3-23"></a><span class="op">{</span></span>
-<span id="cb3-24"><a href="#cb3-24"></a>  <span class="dt">const</span> foamtree<span class="op">-</span>script<span class="op">=</span>DOM<span class="op">.</span><span class="fu">uid</span><span class="op">(</span><span class="st">"foamtree-script"</span><span class="op">);</span> <span class="cf">return</span> html`<span class="op">&lt;</span>script src<span class="op">=</span><span class="st">"https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"</span><span class="op">&gt;&lt;/</span>script<span class="op">&gt;</span>`<span class="op">;</span></span>
-<span id="cb3-25"><a href="#cb3-25"></a><span class="op">}</span></span>
-<span id="cb3-26"><a href="#cb3-26"></a>```</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<div class="callout-important callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-OJS Syntax Error (line 24, column 17)Unexpected token
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" data-startfrom="22" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 21;"><span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> bar<span class="op">=</span>DOM<span class="op">.</span><span class="fu">uid</span>(<span class="st">"bar"</span>)<span class="op">;</span> <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"&gt;&lt;/script&gt;`</span><span class="op">;</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="expression">
 
-</div>
 </div>
 </div>
 </div>
@@ -254,8 +228,8 @@ OJS Syntax Error (line 24, column 17)Unexpected token
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"{\n  const hello=DOM.uid(\"hello\"); return html`<div>Hello from DIV</div>`;\n}\n"}]}
-</script>
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"{\n  const hello=DOM.uid(\"hello\"); return html`<div>Hello from DIV</div>`;\n}\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"{\n  const foo=DOM.uid(\"foo\"); return html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style><div id=\"visualization\">Hello, Visualization!</div>`;\n} \n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"{\n  const bar=DOM.uid(\"bar\"); return html`<script src=\"https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js\"></script>`;\n}\n"}]}
+
 <script type="module">
 window._ojs.paths.runtimeToDoc = "../..";
 window._ojs.paths.runtimeToRoot = "../..";
