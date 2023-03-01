@@ -32,6 +32,6 @@
     "href": "foamtree.html",
     "title": "FoamTree",
     "section": "",
-    "text": "About this site\n\n{\n  html`<div>Hello from DIV</div>`\n}"
+    "text": "About this site\n\nhtml`<div>Hello from DIV</div>`"
   }
 ]
