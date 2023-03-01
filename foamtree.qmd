@@ -19,7 +19,8 @@ About this site
 ```
 
 ```{ojs}
+//| echo: true
 {
-  return html`<script src="https://https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/foamtree-3.5.0/carrotsearch.foamtree.js"></script>`;
+  return html`<script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/foamtree-3.5.0/carrotsearch.foamtree.js"></script>`;
 }
 ```
