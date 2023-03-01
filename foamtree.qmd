@@ -5,6 +5,7 @@ title: "FoamTree"
 About this site
 
 ```{ojs}
+//| echo: false
 {
   const hello=DOM.uid("hello"); return html`<div>Hello from DIV</div>`;
 }
