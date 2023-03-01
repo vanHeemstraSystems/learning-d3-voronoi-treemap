@@ -6,7 +6,5 @@ About this site
 
 ```{ojs}
 //| echo: true
-html`
-  <script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"></script>
-`
+html`<script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"></script>`
 ```
