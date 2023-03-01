@@ -6,7 +6,5 @@ About this site
 
 ```{ojs}
 //| echo: true
-{
-  html`<div>Hello from DIV</div>`
-}
+html`<div>Hello from DIV</div>`
 ```
