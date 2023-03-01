@@ -204,7 +204,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" data-startfrom="13" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 12;"><span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>{<span class="kw">const</span> tree<span class="op">=</span>DOM<span class="op">.</span><span class="fu">uid</span>(<span class="st">"tree"</span>)<span class="op">;</span> <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;style&gt;#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}&lt;/style&gt;&lt;div id="visualization"&gt;&lt;/div&gt;&lt;script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"&gt;&lt;/script&gt;&lt;script&gt;window.addEventListener("load", function() {var foamtree = new CarrotSearchFoamTree({id: "visualization", dataObject: {groups: [{ label: "Your", weight: 1.0 }, { label: "First", weight: 3.0 }, { label: "FoamTree", weight: 2.0 }, { label: "Visualization", weight: 4.0 }]}});});&lt;/script&gt;`</span><span class="op">;</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2" data-startfrom="13" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 12;"><span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> tree<span class="op">=</span>DOM<span class="op">.</span><span class="fu">uid</span>(<span class="st">"tree"</span>)<span class="op">;</span> <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;style&gt;#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}&lt;/style&gt;`</span><span class="op">;</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-2" data-nodetype="expression">
 
@@ -216,8 +218,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"{\n  const hello=DOM.uid(\"hello\"); return html`<div>Hello from DIV</div>`;\n}\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"{const tree=DOM.uid(\"tree\"); return html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style><div id=\"visualization\"></div><script src=\"https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js\"></script><script>window.addEventListener(\"load\", function() {var foamtree = new CarrotSearchFoamTree({id: \"visualization\", dataObject: {groups: [{ label: \"Your\", weight: 1.0 }, { label: \"First\", weight: 3.0 }, { label: \"FoamTree\", weight: 2.0 }, { label: \"Visualization\", weight: 4.0 }]}});});</script>`;} \n"}]}
-
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"{\n  const hello=DOM.uid(\"hello\"); return html`<div>Hello from DIV</div>`;\n}\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"{\n  const tree=DOM.uid(\"tree\"); return html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`;\n} \n"}]}
+</script>
 <script type="module">
 window._ojs.paths.runtimeToDoc = "../..";
 window._ojs.paths.runtimeToRoot = "../..";
