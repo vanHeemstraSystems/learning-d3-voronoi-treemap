@@ -7,9 +7,6 @@ About this site
 ```{ojs}
 //| echo: true
 html`
-  <div>Hello from DIV</div>
-  <style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>
-  <div id="visualization">Hello, Visualization!</div>
-  <script>P</script>
+  <script src="https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/main/foamtree-3.5.0/carrotsearch.foamtree.js"></script>
 `
 ```
