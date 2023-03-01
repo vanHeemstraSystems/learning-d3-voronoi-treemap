@@ -6,5 +6,6 @@ About this site
 
 ```{ojs}
 //| echo: true
+viewof text = htl.html`<p>Some Text</p>`
 viewof input = Inputs.text({label: "Input", value: "Edit me"})
 ```
