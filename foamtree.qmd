@@ -17,3 +17,9 @@ About this site
   const visualization=DOM.uid("visualization"); return html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style><div id="visualization">Hello, Visualization!</div>`;
 } 
 ```
+
+```{ojs}
+{
+  return html`<script src="https://https://raw.githubusercontent.com/vanHeemstraSystems/learning-foamtree/foamtree-3.5.0/carrotsearch.foamtree.js"></script>`;
+}
+```
