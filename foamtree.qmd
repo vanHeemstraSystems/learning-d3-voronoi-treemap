@@ -8,6 +8,6 @@ About this site
 //| echo: true
 viewof mystyle = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`
 viewof mydiv = htl.html`<div id="visualization">Hello, Visualization!</div>`
-viewof myscript = htl.html`<script>document.write("Welcome to FoamTree");</script>`
+viewof myscript = htl.html`<script>document.write("Welcome to FoamTree")</script>`
 viewof myinput = Inputs.text({label: "Input", value: "Edit me"})
 ```
