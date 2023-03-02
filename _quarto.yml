@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Learning - FoamTree"
+  title: "Learning - D3 Voronoi Treemap"
   navbar:
     left:
       - href: index.qmd
