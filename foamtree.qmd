@@ -44,3 +44,7 @@ data = {
   return d3.hierarchy(flare).sum((d) => (d.children ? 0 : Math.random()));
 }
 ```
+
+```{ojs}
+md`### Example - with default colors`
+```
