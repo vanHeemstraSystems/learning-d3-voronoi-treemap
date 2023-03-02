@@ -2,36 +2,6 @@
 title: "FoamTree"
 ---
 
-About this site
-
-```{ojs}
-//| echo: true
-viewof mystyle = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`
-viewof mydiv = htl.html`<div id="visualization">Hello, Visualization!</div>`
-viewof myinput = Inputs.text({label: "Input", value: "Edit me"})
-```
-
-```{ojs}
-//| echo: true
-x = 1 + 2
-```
-
-```{ojs}
-//| echo: true
-viewof y = Inputs.range([0, 100], {label: "Amount", step: 1})
-```
-
-
-```{ojs}
-//| echo: true
-x + y
-```
-
-```{ojs}
-//| echo: true
-viewof sum = x + y
-```
-
 ```{ojs}
 import { renderChart } from "@trebor/zoomable-voronoi-treemap"
 ```
@@ -47,4 +17,13 @@ data = {
 
 ```{ojs}
 md`### Example - with default colors`
+```
+
+```{ojs}
+__exampleChart = {
+  return renderChart({
+    data,
+    size: { width, height: 400 }
+  });
+}
 ```
