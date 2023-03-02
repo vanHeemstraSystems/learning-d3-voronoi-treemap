@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/vanHeemstraSystems/learning-d3-voronoi-treemap/test.html</loc>
-    <lastmod>2023-03-02T12:27:42.227Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/vanHeemstraSystems/learning-d3-voronoi-treemap/SUMMARY.html</loc>
-    <lastmod>2023-03-02T12:27:42.843Z</lastmod>
+    <lastmod>2023-03-02T12:32:11.762Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-d3-voronoi-treemap/about.html</loc>
-    <lastmod>2023-03-02T12:27:43.123Z</lastmod>
+    <lastmod>2023-03-02T12:32:13.558Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-d3-voronoi-treemap/index.html</loc>
-    <lastmod>2023-03-02T12:27:43.391Z</lastmod>
+    <lastmod>2023-03-02T12:32:13.886Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/vanHeemstraSystems/learning-d3-voronoi-treemap/topics.html</loc>
-    <lastmod>2023-03-02T12:27:43.871Z</lastmod>
+    <lastmod>2023-03-02T12:32:14.454Z</lastmod>
   </url>
 </urlset>

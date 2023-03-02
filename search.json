@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Learning - D3 Voronoi Treemap",
-    "section": "",
-    "text": "data = {\n  const flare = await d3.json(\n    \"https://raw.githubusercontent.com/vanHeemstraSystems/learning-d3-voronoi-treemap/main/data/flare.json\"\n  );\n  return d3.hierarchy(flare).sum((d) => (d.children ? 0 : Math.random()));\n}"
-  },
-  {
     "objectID": "SUMMARY.html",
     "href": "SUMMARY.html",
     "title": "Learning - D3 Voronoi Treemap",
