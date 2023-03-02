@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "hello-javascript.html",
-    "href": "hello-javascript.html",
-    "title": "Hello JavaScript",
-    "section": "",
-    "text": "About this site\n\n{\n  const greeting = DOM.uid(\"greeting\");\n  return html`<div>Hello, <b>JavaScript</b>!</div>`;\n}"
-  },
-  {
     "objectID": "SUMMARY.html",
     "href": "SUMMARY.html",
     "title": "Learning - FoamTree",
