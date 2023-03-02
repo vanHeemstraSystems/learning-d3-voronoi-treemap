@@ -26,3 +26,8 @@ viewof y = Inputs.range([0, 100], {label: "Amount", step: 1})
 //| echo: true
 x + y
 ```
+
+```{ojs}
+//| echo: true
+viewof sum = x + y
+```
