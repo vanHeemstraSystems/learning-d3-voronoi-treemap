@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Learning FoamTree](README.md)
+* [Learning D3 Voronoi Treemap](README.md)
