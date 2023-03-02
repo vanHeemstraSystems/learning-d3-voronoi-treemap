@@ -12,5 +12,6 @@ viewof myinput = Inputs.text({label: "Input", value: "Edit me"})
 ```
 
 ```{ojs}
-viewof myscript = htl.html`<script>document.write("Welcome to FoamTree")</script>`
+//| echo: true
+x = 1 + 2
 ```
