@@ -28,8 +28,8 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "foamtree.html",
-    "href": "foamtree.html",
+    "objectID": "topics.html",
+    "href": "topics.html",
     "title": "Topics",
     "section": "",
     "text": "import { renderChart } from \"@trebor/zoomable-voronoi-treemap\"\n\n\n\n\n\n\n\nmd`### Overview`\n\n\n\n\n\n\n\ndata = {\n  const flare = await d3.json(\n    \"https://raw.githubusercontent.com/d3/d3-hierarchy/master/test/data/flare.json\"\n  );\n  return d3.hierarchy(flare).sum((d) => (d.children ? 0 : Math.random()));\n}\n\n\n\n\n\n\n\n__topicsChart = {\n  return renderChart({\n    data,\n    size: { width, height: 400 }\n  });\n}"
