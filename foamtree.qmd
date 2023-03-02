@@ -20,3 +20,9 @@ x = 1 + 2
 //| echo: true
 viewof y = Inputs.range([0, 100], {label: "Amount", step: 1})
 ```
+
+
+```{ojs}
+//| echo: true
+x + y
+```
