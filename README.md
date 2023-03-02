@@ -1,13 +1,13 @@
 [![Quarto Publish](https://github.com/vanHeemstraSystems/learning-foamtree/actions/workflows/publish.yml/badge.svg)](https://github.com/vanHeemstraSystems/learning-foamtree/actions/workflows/publish.yml)
 
-learning-foamtree
-# Learning FoamTree
+learning-d3-voronoi-treemap
+# Learning D3 Voronoi Treemap
 
 Part of "Learning - Voronoi Treemap" at https://github.com/vanHeemstraSystems/learning-voronoi-treemap
 
-Can be read as "Learning FoamTree" at https://app.gitbook.com/o/mhLLz4wi0Rs2JPkBGvCd/s/ctucNWk20QtwQV0UB2vT/
+Can be read as "Learning D3 Voronoi Treemap" at https://app.gitbook.com/o/mhLLz4wi0Rs2JPkBGvCd/s/ctucNWk20QtwQV0UB2vT/
 
-Can be browsed as "Learning FoamTree" at https://vanheemstrasystems.github.io/learning-foamtree/
+Can be browsed as "Learning D3 Voronoi Treemap" at https://vanheemstrasystems.github.io/learning-d3-voronoi-treemap/
 
 Documentation of this repository is automatically done with Quarto using GitHub Actions as described at https://github.com/vanHeemstraSystems/quarto-to-github-pages/blob/main/300/300/README.md
 
