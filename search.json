@@ -32,6 +32,6 @@
     "href": "foamtree.html",
     "title": "FoamTree",
     "section": "",
-    "text": "About this site\n\nviewof mystyle = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`\nviewof mydiv = htl.html`<div id=\"visualization\">Hello, Visualization!</div>`\nviewof myinput = Inputs.text({label: \"Input\", value: \"Edit me\"})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx = 1 + 2\n\n\n\n\n\n\n\nviewof y = Inputs.range([0, 100], {label: \"Amount\", step: 1})"
+    "text": "About this site\n\nviewof mystyle = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`\nviewof mydiv = htl.html`<div id=\"visualization\">Hello, Visualization!</div>`\nviewof myinput = Inputs.text({label: \"Input\", value: \"Edit me\"})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx = 1 + 2\n\n\n\n\n\n\n\nviewof y = Inputs.range([0, 100], {label: \"Amount\", step: 1})\n\n\n\n\n\n\n\nx + y"
   }
 ]
