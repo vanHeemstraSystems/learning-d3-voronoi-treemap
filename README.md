@@ -26,3 +26,5 @@ Based on "A beginner's guide to using Observable JavaScript, R, and Python with 
 Based on "Learn Observable JavaScript with Observable notebooks" at http://www.infoworld.com/article/3674809/learn-observable-javascript-with-observable-notebooks.html
 
 Based on "Data visualization with Observable JavaScript" at http://www.infoworld.com/article/3674852/data-visualization-with-observable-javascript.html
+
+Based on "Zoomable Voronoi Treemap" at https://observablehq.com/@trebor/zoomable-voronoi-treemap
