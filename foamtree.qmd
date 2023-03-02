@@ -15,3 +15,8 @@ viewof myinput = Inputs.text({label: "Input", value: "Edit me"})
 //| echo: true
 x = 1 + 2
 ```
+
+```{ojs}
+//| echo: true
+viewof y = Inputs.range([0, 100], {label: "Amount", step: 1})
+```
