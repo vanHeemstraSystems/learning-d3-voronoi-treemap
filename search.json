@@ -32,6 +32,6 @@
     "href": "foamtree.html",
     "title": "FoamTree",
     "section": "",
-    "text": "About this site\n\nviewof mystyle = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`\nviewof mydiv = htl.html`<div id=\"visualization\">Hello, Visualization!</div>`\nviewof myinput = Inputs.text({label: \"Input\", value: \"Edit me\"})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx = 1 + 2\n\n\n\n\n\n\n\nviewof y = Inputs.range([0, 100], {label: \"Amount\", step: 1})\n\n\n\n\n\n\n\nx + y\n\n\n\n\n\n\n\nviewof sum = x + y\n\n\n\n\n\n\n\nimport { renderChart } from \"@trebor/zoomable-voronoi-treemap\"\n\n\n\n\n\n\n\ndata = {\n  const flare = await d3.json(\n    \"https://raw.githubusercontent.com/d3/d3-hierarchy/master/test/data/flare.json\"\n  );\n  return d3.hierarchy(flare).sum((d) => (d.children ? 0 : Math.random()));\n}\n\n\n\n\n\n\n\nmd`### Example - with default colors`"
+    "text": "import { renderChart } from \"@trebor/zoomable-voronoi-treemap\"\n\n\n\n\n\n\n\ndata = {\n  const flare = await d3.json(\n    \"https://raw.githubusercontent.com/d3/d3-hierarchy/master/test/data/flare.json\"\n  );\n  return d3.hierarchy(flare).sum((d) => (d.children ? 0 : Math.random()));\n}\n\n\n\n\n\n\n\nmd`### Example - with default colors`\n\n\n\n\n\n\n\n__exampleChart = {\n  return renderChart({\n    data,\n    size: { width, height: 400 }\n  });\n}"
   }
 ]
