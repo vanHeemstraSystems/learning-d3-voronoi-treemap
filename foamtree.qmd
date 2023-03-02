@@ -31,3 +31,7 @@ x + y
 //| echo: true
 viewof sum = x + y
 ```
+
+```{ojs}
+import { renderChart } from "@trebor/zoomable-voronoi-treemap"
+```
