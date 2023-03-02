@@ -1,5 +1,5 @@
 ---
-title: "Learning - FoamTree"
+title: "Learning - D3 Voronoi Treemap"
 ---
 
 This is a Quarto website.
