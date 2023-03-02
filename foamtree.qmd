@@ -1,12 +1,19 @@
 ---
-title: "FoamTree"
+title: "Topics"
 ---
 
 ```{ojs}
+//| echo: false
 import { renderChart } from "@trebor/zoomable-voronoi-treemap"
 ```
 
 ```{ojs}
+//| echo: false
+md`### Overview`
+```
+
+```{ojs}
+//| echo: false
 data = {
   const flare = await d3.json(
     "https://raw.githubusercontent.com/d3/d3-hierarchy/master/test/data/flare.json"
@@ -16,11 +23,8 @@ data = {
 ```
 
 ```{ojs}
-md`### Example - with default colors`
-```
-
-```{ojs}
-__exampleChart = {
+//| echo: false
+__topicsChart = {
   return renderChart({
     data,
     size: { width, height: 400 }
