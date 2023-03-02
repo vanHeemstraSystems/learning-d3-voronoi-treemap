@@ -272,12 +272,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8" data-startfrom="48" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 47;"><span id="cb8-48"><a href="#cb8-48" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`### Example - with default colors`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-8" data-nodetype="expression">
+
+</div>
+</div>
+</div>
 
 
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"viewof mystyle = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`\nviewof mydiv = htl.html`<div id=\"visualization\">Hello, Visualization!</div>`\nviewof myinput = Inputs.text({label: \"Input\", value: \"Edit me\"})\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"x = 1 + 2\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"viewof y = Inputs.range([0, 100], {label: \"Amount\", step: 1})\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"x + y\n"},{"methodName":"interpret","cellName":"ojs-cell-5","inline":false,"source":"viewof sum = x + y\n"},{"methodName":"interpret","cellName":"ojs-cell-6","inline":false,"source":"import { renderChart } from \"@trebor/zoomable-voronoi-treemap\"\n"},{"methodName":"interpret","cellName":"ojs-cell-7","inline":false,"source":"data = {\n  const flare = await d3.json(\n    \"https://raw.githubusercontent.com/d3/d3-hierarchy/master/test/data/flare.json\"\n  );\n  return d3.hierarchy(flare).sum((d) => (d.children ? 0 : Math.random()));\n}\n"},{"methodName":"interpretQuiet","source":"shinyInput('mystyle')"},{"methodName":"interpretQuiet","source":"shinyInput('mydiv')"},{"methodName":"interpretQuiet","source":"shinyInput('myinput')"},{"methodName":"interpretQuiet","source":"shinyInput('y')"},{"methodName":"interpretQuiet","source":"shinyInput('sum')"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"viewof mystyle = htl.html`<style>#visualization {width: 600px; height: 400px; max-width: 100%; max-height: 100%;}</style>`\nviewof mydiv = htl.html`<div id=\"visualization\">Hello, Visualization!</div>`\nviewof myinput = Inputs.text({label: \"Input\", value: \"Edit me\"})\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"x = 1 + 2\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"viewof y = Inputs.range([0, 100], {label: \"Amount\", step: 1})\n"},{"methodName":"interpret","cellName":"ojs-cell-4","inline":false,"source":"x + y\n"},{"methodName":"interpret","cellName":"ojs-cell-5","inline":false,"source":"viewof sum = x + y\n"},{"methodName":"interpret","cellName":"ojs-cell-6","inline":false,"source":"import { renderChart } from \"@trebor/zoomable-voronoi-treemap\"\n"},{"methodName":"interpret","cellName":"ojs-cell-7","inline":false,"source":"data = {\n  const flare = await d3.json(\n    \"https://raw.githubusercontent.com/d3/d3-hierarchy/master/test/data/flare.json\"\n  );\n  return d3.hierarchy(flare).sum((d) => (d.children ? 0 : Math.random()));\n}\n"},{"methodName":"interpret","cellName":"ojs-cell-8","inline":false,"source":"md`### Example - with default colors`\n"},{"methodName":"interpretQuiet","source":"shinyInput('mystyle')"},{"methodName":"interpretQuiet","source":"shinyInput('mydiv')"},{"methodName":"interpretQuiet","source":"shinyInput('myinput')"},{"methodName":"interpretQuiet","source":"shinyInput('y')"},{"methodName":"interpretQuiet","source":"shinyInput('sum')"}]}
 </script>
 <script type="module">
 window._ojs.paths.runtimeToDoc = "../..";
