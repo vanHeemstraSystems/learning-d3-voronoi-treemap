@@ -2,7 +2,69 @@
   "name": "topics",
   "children": [
     {
-      "name": "A",
+      "name": "Application Programming Interfaces",
+      "children": [
+        {
+          "name": "Placeholder",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Automation",
+      "children": [
+        {
+          "name": "Placeholder",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "children": [
+        {
+          "name": "Placeholder",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Computing",
+      "children": [
+        {
+          "name": "Cloud Computing",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Containerisation",
+      "children": [
+        {
+          "name": "Docker",
+          "value": 50
+        },
+        {
+          "name": "Kubernetes",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure-as-Code",
+      "children": [
+        {
+          "name": "Ansible",
+          "value": 50
+        },
+        {
+          "name": "Terraform",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Pipelines",
       "children": [
         {
           "name": "A1",
@@ -11,10 +73,55 @@
       ]
     },
     {
-      "name": "B",
+      "name": "Process Mining",
+      "children": [
+        {
+          "name": "A1",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Programming",
+      "children": [
+        {
+          "name": "JavaScript",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "children": [
+        {
+          "name": "Cloud Security",
+          "children": [
+            {
+              "name": "Azure Cloud Security",
+              "value": 50
+            },
+            {
+              "name": "Google Cloud Security",
+              "value": 50            
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Testing",
       "children": [
         {
           "name": "B1",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Value-Chain Management",
+      "children": [
+        {
+          "name": "A1",
           "value": 50
         }
       ]
