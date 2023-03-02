@@ -9,8 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - hello-javascript.qmd
-      - foamtree.qmd
+      - topics.qmd
 
 format:
   html:
