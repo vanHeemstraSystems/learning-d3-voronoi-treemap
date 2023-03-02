@@ -4,15 +4,19 @@
     {
       "name": "A",
       "children": [
-        "name": "A1",
-        "value": 50
+        {
+          "name": "A1",
+          "value": 50
+        }
       ]
     },
     {
       "name": "B",
       "children": [
-        "name": "B1",
-        "value": 50
+        {
+          "name": "B1",
+          "value": 50
+        }
       ]
     }
   ]
