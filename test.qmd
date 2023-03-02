@@ -1,0 +1,9 @@
+```{ojs}
+//| echo: false
+data = {
+  const flare = await d3.json(
+    "https://raw.githubusercontent.com/vanHeemstraSystems/learning-d3-voronoi-treemap/main/data/flare.json"
+  );
+  return d3.hierarchy(flare).sum((d) => (d.children ? 0 : Math.random()));
+}
+```
