@@ -1,1 +1,1 @@
-Sitemap: https://github.com/vanHeemstraSystems/learning-foamtree/sitemap.xml
+Sitemap: https://github.com/vanHeemstraSystems/learning-d3-voronoi-treemap/sitemap.xml
