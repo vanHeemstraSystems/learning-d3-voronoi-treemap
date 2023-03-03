@@ -101,7 +101,8 @@
               "value": 50
             },
             {
-              "name": "<a href='https://www.google.com'>Google Cloud Security</a>",
+              "name": "Google Cloud Security",
+              "url": "https://www.google.com",
               "value": 50            
             }
           ]
